@@ -12,13 +12,20 @@
 - `Interfaz gráfica estilo IDE`: editor de texto con autocompletador de palabras clave, colores para diferenciar los tokens, tabla para ver los tokens utilizados y consola para visualizar resultados de ejecución y posibles errores.
 - `Acceso a archivos compilados`: permite abrir, crear y guardar los archivos con los códigos realizados. Posee además opciones de compilar y ejecutar el código objeto. 🚧en construcción🚧
 
-## ✍️ 
+## 🔻Descarga e instalación
 
-| Rank | Languages |
+Para descargar el PokerLator y utilizarlo en su PC, simplemente debe clonar este repositorio presionando el boton "Code" ubicado en la parte superior de esta página ⬆️, luego copiando el link del repositorio o también descargando el zip con todos los archivos.
+Debe contar nada más con la instalación previa del JDK de Java en la versión 17 o superior y un IDE como IntelliJ Idea (preferiblemente) o Netbeans.
+Tenga en cuenta la ubicación del proyecto para su apertura en el IDE y listo, ya podrá correr el proyecto.
+
+## ✍️ Lista de tokens disponibles
+
+| Token | Palabra a utilizar |
 |-----:|-----------|
-|     1| JavaScript|
-|     2| Python    |
-|     3| SQL       |
+|     DIAMANTES| ♦ ó diamantes|
+|     CORAZONES| ♥ ó corazones|
+|     TREBOLES| ♣ ó treboles       |
+| PICAS| ♠ ó picas |
 
 
 
