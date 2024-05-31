@@ -1,16 +1,7 @@
 package pokerlator;
 
-
-
-
-
-
 import jflex.exceptions.SilentExit;
 
-/**
- *
- * @author yisus
- */
 public class ExecuteJFlex {
 
     public static void main(String omega[]) {

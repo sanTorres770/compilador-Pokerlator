@@ -1,1 +1,35 @@
-$perra =>gg
+Inicio
+
+numero @SmallBlind =>50;
+numero @BigBlind =>100;
+numero @Stack =>2000;
+texto @PosicionEnMesa =>'smallBlind';
+bool @JugadorIn => verdadero;
+diamantes @Carta => ♦A;
+
+funcion @Bicho(){
+	imprimir(mano [♦5 ♣9 ♠7 ♥K ♠A])
+	imprimir(mano [♦5 ♣9 ♠7 ♥K ♠A])
+	retorno -> mano [♦5 ♣9 ♠7 ♥K ♠A]
+}
+
+repartirPreflop(){
+	imprimir('puede hacer fold check o raise')
+	retorno -> ♣9
+}
+
+
+si(!@PosicionEnMesa#comparar('smallBlind')){
+	imprimir('puede hacer fold check o raise')
+	diamantes @Carta => ♦A;
+}sino(){
+	imprimir('puede hacer fold call o raise')	
+}
+
+call(50)
+
+si(@JugadorIn){
+	imprimir('puede hacer fold call o raise')
+}
+
+Final

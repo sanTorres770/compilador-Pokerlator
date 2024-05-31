@@ -473,9 +473,9 @@ public class SyntaxPokerlator {
                 Production var6 = (Production)this.producciones.get(var5);
                 if (var6.nameEqualTo(var1)) {
                     if (var6.getSizeTokens() > 1) {
-                        this.errors.add(new ErrorLSSL(var2, " × Error sintáctico {}: No se esperaba encontrar los tokens \"[]\", favor de eliminarlos [#, %]", var6, this.lineaColumnaIni));
+                        this.errors.add(new ErrorLSSL(var2, " × Error sintáctico {}: No se reconoce los tokens \"[]\" [#, %].", var6, this.lineaColumnaIni));
                     } else {
-                        this.errors.add(new ErrorLSSL(var2, " × Error sintáctico {}: No se esperaba encontrar el token \"[]\", favor de eliminarlo [#, %]", var6, this.lineaColumnaIni));
+                        this.errors.add(new ErrorLSSL(var2, " × Error sintáctico {}: No se reconoce el token \"[]\" [#, %].", var6, this.lineaColumnaIni));
                     }
 
                     this.producciones.remove(var5);
