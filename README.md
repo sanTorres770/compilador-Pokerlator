@@ -20,12 +20,12 @@ Tenga en cuenta la ubicación del proyecto para su apertura en el IDE y listo, y
 
 ## ✍️ Lista de tokens disponibles
 
-| Token | Palabra a utilizar |
+| Token | Expresión regular  | Función |
 |-----:|-----------|
-|     DIAMANTES| ♦ ó diamantes|
-|     CORAZONES| ♥ ó corazones|
-|     TREBOLES| ♣ ó treboles       |
-| PICAS| ♠ ó picas |
+|DIAMANTES| ♦ ó diamantes| Valor de carta|
+|CORAZONES| ♥ ó corazones| Valor de carta|
+|TREBOLES| ♣ ó treboles| Valor de carta||
+| PICAS| ♠ ó picas |Valor de carta|
 
 
 
